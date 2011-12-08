@@ -1,0 +1,22 @@
+<?php
+/**
+ * Este archivo contiene la presentacion.
+ * Descripcion adicional [Opcional].
+ *
+ * PHP versions 5
+ *
+ * @filesource
+ * @copyright       Copyright 2008-2009, Pragmatia de RPB S.A.
+ * @link            http://www.pragmatia.com
+ * @package         AmericaLee
+ * @subpackage      app.views
+ * @since           AmericaLee v 1.0.0
+ * @version         $Revision: 194 $
+ * @modifiedby      $LastChangedBy: mradosta $
+ * @lastmodified    $Date: 2008-12-30 14:21:18 -0200 (mar 30 de dic de 2008) $
+ * @author          Martin Radosta <mradosta@pragmatia.com>
+ */
+
+
+
+ ?>

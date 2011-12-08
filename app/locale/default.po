@@ -1,0 +1,563 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2010-05-20 18:34+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: mradosta <martinradosta@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: /app_controller.php:278
+msgid "The record has been saved"
+msgstr "Se guardo el registro correctamente"
+
+#: /app_controller.php:280
+msgid "%s of %s records have been saved"
+msgstr "% de % registros se han guardado correctamente"
+
+#: /app_controller.php:331;334
+msgid "The record could not be saved. Please verify errors and try again."
+msgstr "No fue posible guardar el registro. Verifique los errores e intente nuevamente."
+
+#: /app_controller.php:371
+msgid "Record deleted"
+msgstr "El registro se ha eliminado"
+
+#: /app_controller.php:373
+msgid "%s records deleted"
+msgstr "%s registros eliminados"
+
+#: /app_controller.php:377
+msgid "The record could not be deleted"
+msgstr "No fue posible eliminar el registro"
+
+#: /controllers/documentos_controller.php:93
+msgid "No document found. Please verify"
+msgstr "No se encontro el documento. Verifique."
+
+#: /controllers/facturas_controller.php:144
+msgid "Must enter a valid period"
+msgstr "Debe seleccionar un periodo valido"
+
+#: /controllers/facturas_controller.php:166
+msgid "Can't delete previous invoices. Call Administrator"
+msgstr "No fue posible eliminar las facturas previas. Comuniquese con el administrador."
+
+#: /controllers/facturas_controller.php:172
+msgid "Can't create invoices. Check search criterias"
+msgstr "No es posible crear la factura. Por favor, verifique los criterios"
+
+#: /controllers/install_controller.php:59
+msgid "Unable to connect to database."
+msgstr "No es posible conectarse a la base de datos."
+
+#: /controllers/install_controller.php:65
+msgid "Could not select database. Did you created it?"
+msgstr "No es posible seleccionar la base de datos. Ha sido creada ya?"
+
+#: /controllers/liquidaciones_controller.php:482
+msgid "Normal liquidation period should be of the form \"YYYYMM[1Q|2Q|M]\""
+msgstr "El periodo para un aliquidacion normal debe ser de la forma \"YYYYMM[1Q|2Q|M]\""
+
+#: /controllers/liquidaciones_controller.php:485
+msgid "Holliday liquidation period should be of the form \"YYYYMM[1Q|2Q|M]\""
+msgstr "El periodo para una liquidacion de vacaciones debe ser de la forma \"YYYYMM[1Q|2Q|M]\""
+
+#: /controllers/liquidaciones_controller.php:488
+msgid "Sac liquidation period should be of the form \"YYYY[12]S\""
+msgstr "El periodo de liquidacion para SAC debe ser de la forma \"YYYY[12]S\""
+
+#: /controllers/liquidaciones_controller.php:491
+msgid "Invalid Period"
+msgstr "Periodo invalido"
+
+#: /controllers/liquidaciones_controller.php:564
+msgid "Can't delete previous liquidations. Call Administrator"
+msgstr "No fue posible eliminar las liquidacion previas. Comuniquese con el administrador."
+
+#: /controllers/usuarios_controller.php:150
+msgid "Login failed. Invalid username or password."
+msgstr "Nombre de usuario o contraseña invalido."
+
+#: /models/user.php:33
+msgid "User not set."
+msgstr "El usuario no ha sido seteado."
+
+#: /models/user.php:92
+msgid "Invalid filter option."
+msgstr "Opcion de filtro no valida"
+
+#: /models/behaviors/permisos.php:147
+msgid "Role option not supported."
+msgstr ""
+
+#: /models/behaviors/permisos.php:170
+msgid "Group option not supported."
+msgstr ""
+
+#: /models/behaviors/permisos.php:341;392
+msgid "Security access method not supported. Please use one of this: \"read\", \"readOwnerOnly\", \"write\" or \"delete\""
+msgstr ""
+
+#: /plugins/debug_kit/views/helpers/simple_graph.php:79
+msgid "Starting %sms into the request, taking %sms"
+msgstr ""
+
+#: /views/areas_coeficientes/add_rapido.ctp:22
+#: /views/convenios_conceptos/add_rapido.ctp:22
+#: /views/elements/add/add.ctp:14
+#: /views/elements/index/acciones.ctp:14
+#: /views/empleadores_coeficientes/add_rapido.ctp:22
+#: /views/empleadores_conceptos/add_rapido.ctp:22
+#: /views/helpers/app_form.php:113
+#: /views/recibos_conceptos/add_rapido.ctp:22
+#: /views/relaciones_conceptos/add_rapido.ctp:22
+msgid "Edit"
+msgstr "Modificar"
+
+#: /views/documentos/generar.ctp:23
+msgid "Document"
+msgstr "Documento"
+
+#: /views/elements/add/acciones.ctp:8
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: /views/elements/add/acciones.ctp:9
+msgid "Duplicate"
+msgstr "Duplicar"
+
+#: /views/elements/add/acciones.ctp:10
+#: /views/elements/index/acciones.ctp:18
+msgid "Delete"
+msgstr "Eliminar"
+
+#: /views/elements/add/acciones.ctp:11
+msgid "Save"
+msgstr "Guardar"
+
+#: /views/elements/add/add.ctp:12
+#: /views/elements/index/acciones.ctp:16
+#: /views/helpers/app_form.php:115
+msgid "New"
+msgstr "Nuevo"
+
+#: /views/elements/add/add.ctp:19
+msgid "%s Records"
+msgstr "%s Registros"
+
+#: /views/elements/index/acciones.ctp:15
+msgid "Edit selected records"
+msgstr "Modificar los registros seleccionados"
+
+#: /views/elements/index/acciones.ctp:17
+msgid "Insert a new record"
+msgstr "Agregar un nuevo registro"
+
+#: /views/elements/index/acciones.ctp:19
+msgid "Delete selected records"
+msgstr "Eliminar los registros seleccionados"
+
+#: /views/elements/index/buscadores.ctp:11;133
+msgid "Clear"
+msgstr "Limpiar"
+
+#: /views/elements/index/buscadores.ctp:12;134
+#: /views/helpers/app_form.php:117;1731
+msgid "Search"
+msgstr "Buscar"
+
+#: /views/elements/index/index.ctp:9
+msgid "Grid"
+msgstr "Grilla"
+
+#: /views/elements/index/paginador.ctp:35
+msgid "Show %s records"
+msgstr "Mostrar %s Registros"
+
+#: /views/elements/index/paginador.ctp:37;45
+msgid "A"
+msgstr "T"
+
+#: /views/elements/index/paginador.ctp:37
+msgid "Show all records"
+msgstr "Motrar todos los registros"
+
+#: /views/elements/index/paginador.ctp:47
+msgid "Show"
+msgstr "Mostrar"
+
+#: /views/elements/layout/barra.ctp:3
+msgid "Logout"
+msgstr "Salir"
+
+#: /views/elements/layout/barra.ctp:4
+msgid "Clean all searches"
+msgstr "Limpiar todas las busquedas"
+
+#: /views/elements/layout/barra.ctp:5
+msgid "Close all breakdowns"
+msgstr "Limpiar todos los desgloses"
+
+#: /views/elements/layout/barra.ctp:6
+msgid "Hide condition frame"
+msgstr ""
+
+#: /views/helpers/app_form.php:357
+msgid "Non existing image"
+msgstr "Imagen inexistente"
+
+#: /views/helpers/app_form.php:638
+msgid "Show %s of %s"
+msgstr "Mostrar %s de %s"
+
+#: /views/helpers/app_form.php:641
+msgid "Show %s"
+msgstr "Mostrar %s"
+
+#: /views/helpers/app_form.php:752
+msgid "Select current record"
+msgstr "Seleccionar el registro actual"
+
+#: /views/helpers/app_form.php:1009
+msgid "The grid is empty. Enter some data or verify your search criterias."
+msgstr "No se encontraron resultado. Ingrese datos o verifique los criterios de busqueda"
+
+#: /views/helpers/app_form.php:1854
+msgid "Pick date"
+msgstr "Seleccione una fecha"
+
+#: /views/helpers/formato.php:744
+msgid "enero"
+msgstr ""
+
+#: /views/helpers/formato.php:745
+msgid "febrero"
+msgstr "febrero"
+
+#: /views/helpers/formato.php:746
+msgid "marzo"
+msgstr "marzo"
+
+#: /views/helpers/formato.php:747
+msgid "abril"
+msgstr "abril"
+
+#: /views/helpers/formato.php:748
+msgid "mayo"
+msgstr "mayo"
+
+#: /views/helpers/formato.php:749
+msgid "junio"
+msgstr "junio"
+
+#: /views/helpers/formato.php:750
+msgid "julio"
+msgstr "julio"
+
+#: /views/helpers/formato.php:751
+msgid "agosto"
+msgstr "agosto"
+
+#: /views/helpers/formato.php:752
+msgid "septiembre"
+msgstr "septiembre"
+
+#: /views/helpers/formato.php:753
+msgid "octubre"
+msgstr "octubre"
+
+#: /views/helpers/formato.php:754
+msgid "noviembre"
+msgstr "noviembre"
+
+#: /views/helpers/formato.php:755
+msgid "diciembre"
+msgstr "diciembre"
+
+#: /views/helpers/paginador.php:49
+msgid "No order"
+msgstr "Sin Orden"
+
+#: /views/helpers/paginador.php:85
+msgid "page %page% of %pages%. %count% records."
+msgstr "página %page% de %pages%. %count% registros."
+
+#: /views/helpers/paginador.php:98
+msgid "Go to first page"
+msgstr "Ir a la primera página"
+
+#: /views/helpers/paginador.php:99
+msgid "Go to previews page"
+msgstr "Ir a la página anterior"
+
+#: /views/helpers/paginador.php:106
+msgid "Go to next page"
+msgstr "Ir a la siguiente página"
+
+#: /views/helpers/paginador.php:107
+msgid "Go to last page"
+msgstr "Ir a la última página"
+
+#: /views/infos/index.ctp:22
+msgid "Detail"
+msgstr "Detalle"
+
+#: /views/install/index.ctp:49
+msgid "Instalar"
+msgstr "Instalar"
+
+#: /views/zones/add.ctp:24
+msgid "Code"
+msgstr "Codigo"
+
+#: /views/zones/add.ctp:25
+msgid "Name"
+msgstr "Nombre"
+
+#: /views/zones/add.ctp:26
+msgid "Percentage"
+msgstr "Porcentage"
+
+#: /views/zones/index.ctp:25
+msgid "Zone"
+msgstr "Zona"
+
+#: /webroot/test.php:88
+msgid "Debug setting does not allow access to this url."
+msgstr ""
+
+#: /plugins/debug_kit/controllers/components/toolbar.php:91
+msgid "Component initialization and startup"
+msgstr ""
+
+#: /plugins/debug_kit/controllers/components/toolbar.php:163
+msgid "Controller Action"
+msgstr ""
+
+#: /plugins/debug_kit/controllers/components/toolbar.php:193
+msgid "Render Controller Action"
+msgstr ""
+
+#: /plugins/debug_kit/controllers/components/toolbar.php:258
+msgid "Could not load DebugToolbar panel %s"
+msgstr ""
+
+#: /plugins/debug_kit/vendors/debug_kit_debugger.php:183
+msgid "Core Processing (Derived)"
+msgstr ""
+
+#: /plugins/debug_kit/vendors/fire_cake.php:320
+msgid "Headers already sent in %s on line %s. Cannot send log data to FirePHP."
+msgstr ""
+
+#: /plugins/debug_kit/vendors/fire_cake.php:341
+msgid "Incorrect parameter count for FireCake::fb()"
+msgstr ""
+
+#: /plugins/debug_kit/vendors/fire_cake.php:414
+msgid "Maximum number (99,999) of messages reached!"
+msgstr ""
+
+#: /plugins/debug_kit/vendors/shells/benchmark.php:51
+msgid "-> Testing :url"
+msgstr ""
+
+#: /plugins/debug_kit/vendors/shells/benchmark.php:80
+msgid "Total Requests made: :requests"
+msgstr ""
+
+#: /plugins/debug_kit/vendors/shells/benchmark.php:81
+msgid "Total Time elapsed: :duration (seconds)"
+msgstr ""
+
+#: /plugins/debug_kit/vendors/shells/benchmark.php:85
+msgid "Requests/Second: :rps req/sec"
+msgstr ""
+
+#: /plugins/debug_kit/vendors/shells/benchmark.php:89
+msgid "Average request time: :average-time seconds"
+msgstr ""
+
+#: /plugins/debug_kit/vendors/shells/benchmark.php:93
+msgid "Standard deviation of average request time: :std-dev"
+msgstr ""
+
+#: /plugins/debug_kit/vendors/shells/benchmark.php:97
+msgid "Longest/shortest request: :longest sec/:shortest sec"
+msgstr ""
+
+#: /plugins/debug_kit/vendors/shells/benchmark.php:153
+msgid "DebugKit Benchmark Shell"
+msgstr ""
+
+#: /plugins/debug_kit/vendors/shells/benchmark.php:155
+msgid ""
+"\tAllows you to obtain some rough benchmarking statistics \n"
+"\tabout a fully qualified URL."
+msgstr ""
+
+#: /plugins/debug_kit/vendors/shells/benchmark.php:157
+msgid "\tUse:"
+msgstr ""
+
+#: /plugins/debug_kit/vendors/shells/benchmark.php:158
+msgid "\t\tcake benchmark [-n iterations] [-t timeout] url"
+msgstr ""
+
+#: /plugins/debug_kit/vendors/shells/benchmark.php:160
+msgid "\tParams:"
+msgstr ""
+
+#: /plugins/debug_kit/vendors/shells/benchmark.php:161
+msgid ""
+"\t\t-n Number of iterations to perform. Defaults to 10. \n"
+"\t\t   Must be an integer."
+msgstr ""
+
+#: /plugins/debug_kit/vendors/shells/benchmark.php:162
+msgid ""
+"\t\t-t Maximum total time for all iterations, in seconds. \n"
+"\t\t   Defaults to 100. Must be an integer."
+msgstr ""
+
+#: /plugins/debug_kit/vendors/shells/benchmark.php:164
+msgid ""
+"\tIf a single iteration takes more than the \n"
+"\ttimeout specified, only one request will be made."
+msgstr ""
+
+#: /plugins/debug_kit/vendors/shells/benchmark.php:166
+msgid "\tExample Use:"
+msgstr ""
+
+#: /plugins/debug_kit/vendors/shells/benchmark.php:167
+msgid "\t\tcake benchmark -n 10 -t 100 http://localhost/testsite"
+msgstr ""
+
+#: /plugins/debug_kit/vendors/shells/benchmark.php:169
+msgid "\tNote that this benchmark does not include browser render time"
+msgstr ""
+
+#: /plugins/debug_kit/views/debug.php:53
+msgid "Rendering %s"
+msgstr ""
+
+#: /plugins/debug_kit/views/debug.php:75
+msgid "Rendering View"
+msgstr ""
+
+#: /plugins/debug_kit/views/elements/debug_toolbar.ctp:25
+msgid "There are no active panels. You must enable a panel to see its output."
+msgstr ""
+
+#: /plugins/debug_kit/views/elements/history_panel.ctp:21
+msgid "Request History"
+msgstr ""
+
+#: /plugins/debug_kit/views/elements/history_panel.ctp:23
+msgid "No previous requests logged."
+msgstr ""
+
+#: /plugins/debug_kit/views/elements/history_panel.ctp:25
+msgid "previous requests available"
+msgstr ""
+
+#: /plugins/debug_kit/views/elements/history_panel.ctp:27
+msgid "Restore to current request"
+msgstr ""
+
+#: /plugins/debug_kit/views/elements/log_panel.ctp:21
+msgid "Logs"
+msgstr ""
+
+#: /plugins/debug_kit/views/elements/log_panel.ctp:28
+msgid "Time"
+msgstr ""
+
+#: /plugins/debug_kit/views/elements/log_panel.ctp:28
+#: /plugins/debug_kit/views/elements/timer_panel.ctp:54
+msgid "Message"
+msgstr "Mensaje"
+
+#: /plugins/debug_kit/views/elements/log_panel.ctp:37
+msgid "There were no log entries made this request"
+msgstr ""
+
+#: /plugins/debug_kit/views/elements/request_panel.ctp:21
+msgid "Request"
+msgstr ""
+
+#: /plugins/debug_kit/views/elements/request_panel.ctp:35
+msgid "Current Route"
+msgstr ""
+
+#: /plugins/debug_kit/views/elements/session_panel.ctp:21
+msgid "Session"
+msgstr ""
+
+#: /plugins/debug_kit/views/elements/sql_log_panel.ctp:21
+msgid "Sql Logs"
+msgstr ""
+
+#: /plugins/debug_kit/views/elements/sql_log_panel.ctp:31
+msgid "toggle (%s) query explains for %s"
+msgstr ""
+
+#: /plugins/debug_kit/views/elements/sql_log_panel.ctp:39
+msgid "No slow queries!, or your database does not support EXPLAIN"
+msgstr ""
+
+#: /plugins/debug_kit/views/elements/sql_log_panel.ctp:44
+msgid "No active database connections"
+msgstr ""
+
+#: /plugins/debug_kit/views/elements/timer_panel.ctp:33
+msgid "Memory"
+msgstr ""
+
+#: /plugins/debug_kit/views/elements/timer_panel.ctp:35
+msgid "Current Memory Use"
+msgstr ""
+
+#: /plugins/debug_kit/views/elements/timer_panel.ctp:39
+msgid "Peak Memory Use"
+msgstr ""
+
+#: /plugins/debug_kit/views/elements/timer_panel.ctp:43
+msgid "Timers"
+msgstr ""
+
+#: /plugins/debug_kit/views/elements/timer_panel.ctp:45
+msgid "%s (ms)"
+msgstr "%s (ms)"
+
+#: /plugins/debug_kit/views/elements/timer_panel.ctp:46
+msgid "Total Request Time:"
+msgstr ""
+
+#: /plugins/debug_kit/views/elements/timer_panel.ctp:54
+msgid "Time in ms"
+msgstr ""
+
+#: /plugins/debug_kit/views/elements/timer_panel.ctp:54
+msgid "Graph"
+msgstr ""
+
+#: /plugins/debug_kit/views/elements/variables_panel.ctp:21
+msgid "View Variables"
+msgstr ""
+
+#~ msgid "Holliday liquidation period should be an Year"
+#~ msgstr "El periodo de liquidacion para vacaciones debe ser año"
+#~ msgid "january"
+#~ msgstr "enero"
+#~ msgid "Ascending order"
+#~ msgstr "Orden ascendente"
+#~ msgid "Descending order"
+#~ msgstr "Orden descendente"
+#~ msgid "Clean"
+#~ msgstr "Limpiar"
+

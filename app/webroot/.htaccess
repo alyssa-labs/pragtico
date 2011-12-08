@@ -1,0 +1,16 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
+</IfModule>
+#<IfModule mod_expires.c>
+#	ExpiresActive on
+	# For media, css, pdf, and external Jscript files
+#	<FilesMatch "\.(ico¦jpe?g¦png¦gif¦js¦css¦swf)$">
+	# set 30-day cacheable (longer is almost useless)
+#		ExpiresDefault A2592000
+	# Don't set any caching restrictions
+#		Header unset cache-Control
+#	</FilesMatch>
+#</IfModule>

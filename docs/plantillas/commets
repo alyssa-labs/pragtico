@@ -1,0 +1,45 @@
+<?php
+/**
+ * array
+ * integer
+ * string
+ * object
+ * void
+ */
+ 
+/**
+ * Definir lo que guardara la variable.
+ *
+ * @var array
+ * @access private
+ */
+	var $__privateVar = array();
+
+/**
+ * Definir lo que guardara la variable.
+ *
+ * @var array
+ * @access protected
+ */
+	var $_protectedVar = array();
+
+/**
+ * Definir lo que guardara la variable.
+ *
+ * @var array
+ * @access public
+ */
+	var $publicVar = array();
+	
+/**
+ * Retorna una x.
+ *
+ * @param string $par El parametro ...
+ * @return string Una x ....
+ * @access public
+ */
+	function funcionX($par) {
+		return "x";
+	}
+
+ ?>
